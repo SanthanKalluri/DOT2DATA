@@ -1,0 +1,32 @@
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: MySQL TRMBDEVDB Upgrade
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+@echo off
+
+@title MySQL Collation Change
+@color 0a
+@cls
+
+
+:: MySQl DB user
+set dbuser=mizetestdbadmin
+
+:: MySQl DB users password
+set dbpass=Mize4321
+
+:: MySQl host
+set host=tapimizedatabase.c7tjyqjoeuyp.us-east-1.rds.amazonaws.com
+
+
+
+:: Loop through the folders and use the file names for the sql files, collects all databases automatically this way
+:: Pass each name to mysqldump.exe and output an individual .sql file for each
+
+
+  "C:\Program Files\MySQL\MySQL Workbench 6.3 CE\mysql.exe" --user=%dbuser% --password=%dbpass%  --host=%host%  TestDBSCRIPTS  < "C:\Users\maheshkalluri\Documents\object_compare\master_ddl_test.sql" > "D:\mysql_mahesh_scripts\TESTDB.out"
+
+
+  @echo done
+pause
+exit

@@ -1,0 +1,26 @@
+Host : tapimize57.c7tjyqjoeuyp.us-east-1.rds.amazonaws.com
+Port : 3306
+DB Name Provided : DROBOTDB
+Application User Created: DROBOTDB_USER
+The App User Pasword is : drobotdbuser_1234
+The Version  installed is : 7.1.0
+The Company Name is : DROBO
+The First Delta File to process : deltascript5.6.0
+Host : 129.150.69.8
+Port : 3306
+Host : 129.150.69.8
+Port : 3306
+DB Name Provided : MAHDDB
+Application User Created: MAHDDB_USER
+The App User Pasword is : secret
+The Version  installed is : 7.1.0
+The Company Name is : MAH
+The First Delta File to process : deltascript5.6.0
+Host : tapimize57.c7tjyqjoeuyp.us-east-1.rds.amazonaws.com
+Port : 3306
+DB Name Provided : MAHDDB
+Application User Created: MAHDDB_USER
+The App User Pasword is : s3cr3tOn3
+The Version  installed is : 7.1.0
+The Company Name is : MAH
+The First Delta File to process : deltascript5.6.0

@@ -1,0 +1,1 @@
+java -Ddboperation=CompareDB -jar dbutil-0.0.1.jar
